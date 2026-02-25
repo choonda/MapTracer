@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📖 Overview
+MapTracer is an AI-driven productivity tool that transforms boring study plans into immersive RPG-style "Games." Most AI tutors focus on teaching content; we focus on accountability and execution.
 
-## Getting Started
+Users don't just "study for a test"—they embark on a campaign. By defining your goals and timeline, our AI generates a visual roadmap (The Skill Tree) where every task is a quest and every milestone is a boss fight.
 
-First, run the development server:
+✨ Key Features
+The AI Guild Master (Chatbot): Input your learning goal, current level, and deadline. Our AI parses this data to build a custom, time-bound "Game Map."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Skill Tree (Roadmap): A non-linear visual representation of your learning path. Nodes unlock as you complete tasks.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Vault (Game Storage): Manage multiple "Games" (e.g., The Python Sorcerer and The French Diplomat) simultaneously with distinct progress tracking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Proof of Work Tracking: We don't teach; we verify. Users provide references or evidence of work to "Level Up" their character.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Nudge System: Instead of generic notifications, receive lore-based reminders to keep your streak alive.;
 
-## Learn More
+🗺️ How it Works
+Initiate Quest: Tell the AI what you want to learn (e.g., "Master React in 30 days").
 
-To learn more about Next.js, take a look at the following resources:
+Generate Map: The AI outputs a JSON-structured roadmap, which the UI renders as a game map.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Level Up: Complete real-world tasks. Use the provided references to study.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Stay Accountable: The system tracks your pace. If you fall behind, your "Health" drops; if you stay on track, you earn "Legendary" status.
